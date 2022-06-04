@@ -80,5 +80,8 @@
     "stats": "webpack --config configuration/webpack.prod.config.js --mode=production --json > dist/stats.json && webpack-bundle-analyzer dist/stats.json"
   },
   "target": "web",
-  "dependencies": {}
+  "dependencies": {
+    "jquery-countdown": "^2.2.0",
+    "materialize-css": "^1.0.0-rc.2"
+  }
 }

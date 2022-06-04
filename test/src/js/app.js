@@ -1,6 +1,8 @@
-import '../scss/app.scss';
+import 'materialize-css/dist/css/materialize.min.css'
+import 'materialize-css/dist/js/materialize.min'
 
-/* Your JS Code goes here */
+import '../scss/app.scss'
 
-/* Demo JS */
-import './demo.js';
+M.AutoInit()
+
+import './game'
